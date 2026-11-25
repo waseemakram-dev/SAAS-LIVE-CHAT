@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SaaS Live Chat
 
-## Getting Started
+A modern customer-support chat dashboard built as a focused frontend for SaaS products. The project explores a fast, responsive operator experience using the latest Next.js and React foundations.
 
-First, run the development server:
+> **Status:** Frontend showcase in active development. Backend services are maintained separately.
+
+## Highlights
+
+- SaaS-oriented support dashboard experience
+- Responsive layout for desktop and smaller screens
+- Type-safe application development with TypeScript
+- Modern routing and rendering through Next.js
+- Utility-first styling with Tailwind CSS
+- Optimized local development and production builds
+
+## Technology
+
+- Next.js 16
+- React 19
+- TypeScript 5
+- Tailwind CSS 3
+- PostCSS
+
+## Getting started
+
+### Requirements
+
+- Node.js 20+
+- npm, pnpm, Yarn, or Bun
+
+### Installation
 
 ```bash
+git clone https://github.com/waseemakram-dev/SAAS-LIVE-CHAT.git
+cd SAAS-LIVE-CHAT
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create an optimized production build |
+| `npm run start` | Run the production server |
+| `npm run lint` | Run the project linter |
 
-## Learn More
+## Project direction
 
-To learn more about Next.js, take a look at the following resources:
+- Connect the interface to real-time messaging services
+- Add conversation assignment and presence states
+- Improve search, filtering, and customer context
+- Expand accessibility and automated test coverage
+- Document deployment and environment configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by [Waseem Akram](https://github.com/waseemakram-dev).
